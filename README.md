@@ -12,5 +12,5 @@
 <a href='https://github.com/keras-team/keras'>keras-team</a>
 ## CNN.py
 
-# ai-car 
+# AI-CAR 
 <a href='https://github.com/cavedunissin/ai-car'>實戰AI資料導向式學習 [cavedu ai-car project]</a>
