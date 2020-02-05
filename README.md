@@ -9,9 +9,9 @@
 </ul>
 
 # Keras-examples
-<ui>
+<ul>
 <a href='https://github.com/keras-team/keras'>keras-team</a>
-</ui>
+</ul>
 
 ## CNN.py
 
