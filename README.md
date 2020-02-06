@@ -1,11 +1,12 @@
 # AI&IoT
 <ul>
-<li>  溫度感應器 & NodeMCU   
+<li>  Raspberry Pi 
+<li>  NodeMCU & 溫度感應器    
 <li>  Respeaker & 智慧語音
-<li>  三軸感測器 & 摔倒偵測系統
-<li>  Raspberry Pi & Keras 
-<li>  深度學習 & Raspberry Pi3 人臉辨識
-<li>  Raspberry Pi3 & Intel NCS2 
+<li>  三軸感測器[MPU6050] & 摔倒偵測系統
+<li>  深度學習 & Keras
+<li>  Raspberry Pi3 & Intel NCS2
+<li>  Raspberry Pi3 & GOOGLE Coral Accelerator EDGE TPU Coprocessor
 </ul>
 
 # Keras-examples
