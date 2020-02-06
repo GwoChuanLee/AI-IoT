@@ -31,7 +31,8 @@ sudo apt install cmake
 <li> 下載測試資料與程式碼
   
   git clone https://github.com/cavedunissin/raspberrypi3_openvino <br>
-
+  
+  程序:
   <a href='https://makerpro.cc/2019/08/raspberrypicar-sign-identification-through-tensorflow-machine-learningraspberrypi/'> OpenVINO™教學- 透過Tensorflow機器學習在RaspberryPi小車上辨識號誌</a> <br>
  
 </ul>
