@@ -14,6 +14,7 @@
 <ul>
   <li> <a href='https://github.com/keras-team/keras'>keras-team Projects & Examples </a> <br>
 </ul>
+# CNN Keras examples
 
 # Intel OpenVINO 安裝
 
@@ -38,8 +39,6 @@ sudo apt install cmake
   <a href='https://makerpro.cc/2019/08/raspberrypicar-sign-identification-through-tensorflow-machine-learningraspberrypi/'> OpenVINO™教學- 透過Tensorflow機器學習在RaspberryPi小車上辨識號誌</a> <br>
  
 </ul>
-
-## CNN.py
 
 # AI-CAR 
 <ul>
