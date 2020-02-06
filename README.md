@@ -5,8 +5,9 @@
 <li>  Respeaker & 智慧語音
 <li>  三軸感測器[MPU6050] & 摔倒偵測系統
 <li>  深度學習 & Keras
-<li>  Raspberry Pi3 & Intel NCS2
-<li>  Raspberry Pi3 & GOOGLE Coral Accelerator EDGE TPU Coprocessor
+<li>  Raspberry Pi3/4 & Intel® Movidius™神經運算棒 NCS2
+<li>  Raspberry Pi3/4 & GOOGLE Coral Accelerator EDGE TPU Coprocessor
+<li>  NVIDIA Jetson Nano 
 </ul>
 
 # Keras-examples
