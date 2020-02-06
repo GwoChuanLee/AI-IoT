@@ -19,7 +19,7 @@
 
 <li> cmake install  <br>
 sudo apt install cmake
-<li> 下載 openvino
+<li> 下載 openvino <br>
   https://download.01.org/openvinotoolkit/2018_R5/packages/l_openvino_toolkit_ie_p_2018.5.445.tgz
 <li> install references
   <ul>
