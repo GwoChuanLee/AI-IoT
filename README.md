@@ -12,7 +12,7 @@
 
 # Keras-examples
 <ul>
-<a href='https://github.com/keras-team/keras'>keras-team</a>
+<a href='https://github.com/keras-team/keras'>keras-team Projects & Examples </a>
 </ul>
 
 # Intel OpenVINO 安裝
