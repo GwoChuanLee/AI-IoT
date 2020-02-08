@@ -29,20 +29,20 @@ sudo apt install cmake
 <li> 安裝: 參考 <a href='https://blog.cavedu.com/2019/04/02/ncs2-openvino/'>使用Intel® Movidius™神經運算棒 2 & OpenVINO-在樹莓派上跑自駕車</a> <br>
   <ul>
     <li> 其他參考: <a href='https://chtseng.wordpress.com/2019/01/21/intel-openvino%E4%BB%8B%E7%B4%B9%E5%8F%8A%E6%A8%B9%E8%8E%93%E6%B4%BE%E3%80%81linux%E7%9A%84%E5%AE%89%E8%A3%9D/'>Intel OpenVINO介紹及樹莓派、Linux的安裝-CH Tseng</a> <br>
-    <li> 解壓縮 <br> 
+    <li> 1.解壓縮 <br> 
       tar -xvf l_openvino_toolkit_ie_p_2018.5.445.tgz <br>
-    <li> Step5：接下來請執行以下的指令來修改setupvars.sh中的參數，待會設定環境參數實會用到 <br>
+    <li> 2.執行以下的指令來修改setupvars.sh中的參數，待會設定環境參數實會用到 <br>
       sed -i "s|<INSTALLDIR>|$(pwd)/inference_engine_vpu_arm|" inference_engine_vpu_arm/bin/setupvars.sh <br>
-    <li> Step6： 環境參數設定，輸入以下的指令來啟動自動設定OpenVINO的環境參數 <br> 
+    <li> 3.環境參數設定，輸入以下的指令來啟動自動設定OpenVINO的環境參數 <br> 
       echo "source $HOME/inference_engine_vpu_arm/bin/setupvars.sh" >> $HOME/.bashrc <br>
     <li> 第一次設定完，請重新登入一次shell或者是重新打開終端機才會生效。<br>
       bash <br>
      成功啟動環境的話，您將會看到”[setupvars.sh] OpenVINO environment initialized”的字樣。 <br>
-    <li> Step7：為了使樹莓派能夠認得NCS，必須再額外設定USB Rules <br>
+    <li> 4. 為了使樹莓派能夠認得NCS，必須再額外設定USB Rules <br>
        將現在的使用者加入users的群組 <br>
        sudo usermod -a -G users "$(whoami)" <br>
        加入完成後，並須登出後再重新登入
-    <li> 安裝udev rules <br>
+    <li> 5. 安裝udev rules <br>
        ./inference_engine_vpu_arm/install_dependencies/install_NCS_udev_rules.sh <br>
      終端機出現 “[setupvars.sh] OpenVINO environment initialized”時，表示您已經在樹莓派上成功安裝OpenVINO <br>
        
