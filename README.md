@@ -45,7 +45,7 @@ sudo apt install cmake
 # Google Coral TPU Edge 安裝
 <ul>
   
-  <li> 安裝 Coral TPU : <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br>
+  <li> 安裝 Coral TPU : 參考 <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br>
      安裝前請拔掉 Accelerator 在 USB，
       <ul>
         <li> A.下載 Edge TPU API <br><br>
