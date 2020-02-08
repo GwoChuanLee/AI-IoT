@@ -47,7 +47,7 @@ sudo apt install cmake
   
   <li> 安裝 Coral TPU : <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> 
       <ul>
-        <li> A.下載 Edge TPU API
+        <li> A.下載 Edge TPU API <br>
             cd ~/
             wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz –trust-server-names
             tar xzf edgetpu_api.tar.gz
