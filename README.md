@@ -18,7 +18,7 @@
 
 # CNN Keras examples
 
-# RPi3& Intel OpenVINO 安裝
+# RPi3& Intel OpenVINO 安裝測試
 
 <ul>
 <li> 下載 openvino <br>
