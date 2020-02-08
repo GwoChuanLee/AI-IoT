@@ -54,7 +54,8 @@ sudo apt install cmake
             tar xzf edgetpu_api.tar.gz <br><br>
         <li> B. 安裝 Edge TPU API <br><br>
             cd edgetpu_api <br>
-            bash ./install.sh [ok][Now on here]<br><br>
+            bash ./install.sh [ok]<br><br>
+            [now on heare]<br>
       </ul>
       安裝後再接上 Accelerator 在 USB， <br>
   <li> 測試 Coral TPU: <br>
