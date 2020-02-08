@@ -50,11 +50,10 @@ sudo apt install cmake
         <li> A.下載 Edge TPU API <br>
             cd ~/ <br>
             wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz –trust-server-names <br>
-            tar xzf edgetpu_api.tar.gz <br>
-           
-        <li> B. 安裝 Edge TPU API
-            cd edgetpu_api
-            bash ./install.sh
+            tar xzf edgetpu_api.tar.gz <br>  
+        <li> B. 安裝 Edge TPU API <br>
+            cd edgetpu_api <br>
+            bash ./install.sh <br>
        <ul>
   <li> 測試 Coral TPU:
   <li> <a href='https://blog.cavedu.com/2019/10/12/google-coral-usb-accelerator-teachable-machine/'>用 Google Coral USB Accelerator 搭配 Raspberry Pi 實作 Teachable Machine </a>
