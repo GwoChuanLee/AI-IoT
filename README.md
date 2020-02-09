@@ -53,7 +53,7 @@
    </ul>
 </ul>
 
-# RPGoogle Coral TPU Edge 安裝
+# RPi3 & Google Coral TPU Edge 安裝
 <ul>
   
   <li> 安裝 Coral TPU : 參考 <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br>
