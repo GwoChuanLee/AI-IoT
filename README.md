@@ -44,21 +44,21 @@
 
 # RPi3 & Google Coral TPU Edge 安裝測試
 <ul>
-  <li> 安裝 Coral TPU API: 參考 <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br>    
+  <li> <b>安裝 Coral TPU API: 參考 <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> </b> <br>    
       <ul>
         <li> 安裝前請拔掉 Accelerator 
-        <li> A.下載 Edge TPU API <br>
+         <li> <b> A.下載 Edge TPU API </b> <br>
             $cd ~/ <br>
             $wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz –trust-server-names <br>
             $tar xzf edgetpu_api.tar.gz <br>
-        <li> B. 安裝 Edge TPU API <br>
+         <li> <b> B. 安裝 Edge TPU API </b> <br>
             $cd edgetpu_api <br>
             $bash ./install.sh <br>
         <li> C. 安裝 API 後再接上 Accelerator 讓 udev rule 生效 <br>
       </ul>
-  <li> 測試 Coral TPU: <br>
+   <li> <b> 測試 Coral TPU: </b> <br>
     <ul>
-      <li> <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br> 
+      <li> 文件參考：<a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br> 
       <b> A. Image Classification </b> <br>
       依參考文件下載預訓練好的模型及示範圖片：<br>
       若無法下載　parrot.jpg, 可利用google搜尋網路上parrot.jpg 圖片  <br>
