@@ -60,8 +60,7 @@
     <ul>
       <li> 文件參考：<a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br> 
       <b> A. Image Classification </b> <br>
-      依參考文件下載預訓練好的模型及示範圖片：
-      若無法下載　parrot.jpg, 可利用google搜尋網路上parrot.jpg 圖片  <br>
+      依參考文件下載預訓練好的模型及示範圖片，若無法下載，可利用google搜尋網路上parrot.jpg 圖片  <br>
       下載完成後，進入 demo 目錄執行 classify_image.py 程式：<br>
       $cd /usr/local/lib/python3.5/dist-packages/edgetpu/demo <br>
       $python3 classify_image.py \
