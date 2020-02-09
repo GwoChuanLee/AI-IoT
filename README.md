@@ -54,9 +54,8 @@
         <li> B. 安裝 Edge TPU API <br>
             $cd edgetpu_api <br>
             $bash ./install.sh <br><br>
-            [Now its ok here]<br>
+        <li> C. 安裝後再接上 Accelerator 讓 udev rule 生效 <br>
       </ul>
-      安裝後再接上 Accelerator  <br>
   <li> 測試 Coral TPU: <br>
     <ul>
       <li> <a href='https://blog.cavedu.com/2019/10/12/google-coral-usb-accelerator-teachable-machine/'>用 Google Coral USB Accelerator 搭配 Raspberry Pi 實作 Teachable Machine </a>
