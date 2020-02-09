@@ -72,7 +72,6 @@
        $sudo apt-get install feh <br>
        接著使用 SSD MobileNet V2 所訓練的臉孔偵測模型來偵測人臉；一樣先下載預訓練模型及示範圖片： <br>
        接著執行 demo 目錄中的 object_detection.py 程式 <br>
-       $cd /usr/local/lib/python3.5/dist-packages/edgetpu/demo <br>
        $python3 object_detection.py \
         --model ~/Downloads/mobilenet_ssd_v2_face_quant_postprocess_edgetpu.tflite \
         --input ~/Downloads/face.jpg \
