@@ -2,7 +2,7 @@
 <ul>
 <li>  Raspberry Pi 
 <li>  NodeMCU & 溫度感應器    
-<li>  Respeaker & 智慧語音
+<li>  Respeaker & 智慧語音 : 智慧音箱
 <li>  三軸感測器[MPU6050] & 摔倒偵測系統
 <li>  深度學習 & Keras
 <li>  Raspberry Pi3/4 & Intel® Movidius™神經運算棒 NCS2
