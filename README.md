@@ -3,19 +3,15 @@
 <li>  NodeMCU & 溫度感應器    
 <li>  Respeaker & 智慧語音 : 智慧音箱
 <li>  三軸感測器[MPU6050] & 摔倒偵測系統
-<li>  深度學習 & Keras
 <li>  Raspberry Pi3/4 & Intel® Movidius™神經運算棒 NCS2
 <li>  Raspberry Pi3/4 & GOOGLE Coral Accelerator EDGE TPU Coprocessor
 <li>  NVIDIA Jetson Nano 
-<li>  自駕車
 </ul>
 
 # Keras 
 <ul>
   <li> <a href='https://github.com/keras-team/keras'>keras-team Projects & Examples </a> <br>
 </ul>
-
-# CNN Keras examples
 
 # RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
 
