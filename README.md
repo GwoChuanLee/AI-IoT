@@ -21,7 +21,7 @@
       <li> 下載測試套件: <br> 
        $git clone https://github.com/cavedunissin/raspberrypi3_openvino <br>
       <li> 下載測試影片檔 : example_1.mp4  <br>
-       $git clone https://github.com/cavedunissin/ai-car <br>
+       $git clone https://github.com/cavedunissin/ai-car.git <br>
       <li> 測試程序參考文件: <a href='https://makerpro.cc/2019/08/raspberrypicar-sign-identification-through-tensorflow-machine-learningraspberrypi/'> OpenVINO™教學- 透過Tensorflow機器學習在RaspberryPi小車上辨識號誌</a> <br>  
       <li> 測試指令1: [修正參考文件路徑錯誤] <br>
          $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
