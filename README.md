@@ -8,11 +8,6 @@
 <li>  NVIDIA Jetson Nano 
 </ul>
 
-# Keras 
-<ul>
-  <li> <a href='https://github.com/keras-team/keras'>keras-team Projects & Examples </a> <br>
-</ul>
-
 # RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
 
 <ul>
