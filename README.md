@@ -38,12 +38,13 @@
          --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
          --source [your path]example_1.mp4 <br>
       <li> 測試指令2: [加上 --gui 可顯示畫面] <br>
-          python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
+         python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
          --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
-         --source [your path]example_1.mp4 --gui <br>
-   </ul>
-  
-  
+         --source [your path]example_1.mp4 --gui <br>      
+      <li> 測試指令3: [使用 webcam 讀取即時影像] <br>
+          python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
+         --weights-file ../openvino_model/movidius2_model/saved_model.bin --gui <br>
+   </ul> <br>
  
 <li> 其他安裝與測試參考: <a href='https://chtseng.wordpress.com/2019/01/21/intel-openvino%E4%BB%8B%E7%B4%B9%E5%8F%8A%E6%A8%B9%E8%8E%93%E6%B4%BE%E3%80%81linux%E7%9A%84%E5%AE%89%E8%A3%9D/'>Intel OpenVINO介紹及樹莓派、Linux的安裝-CH Tseng</a> <br>
  
