@@ -59,17 +59,23 @@
   <li> 測試 Coral TPU: <br>
     <ul>
       <li> <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> <br> 
-      下載預訓練好的模型及示範圖片：<br>
-      $cd ~/Downloads/
-      $wget https://dl.google.com/coral/canned_models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
-       https://dl.google.com/coral/canned_models/inat_bird_labels.txt \
-       https://dcoral.withgoogle.com/static/docs/images/parrot.jpg  <br>
-       下載完成後，進入 demo 目錄執行 classify_image.py 程式：<br>
+      <b> A. Image Classification </b> <br>
+      依參考文件下載預訓練好的模型及示範圖片：<br>
+      若無法下載　parrot.jpg, 可利用google搜尋網路上parrot.jpg 圖片  <br>
+      下載完成後，進入 demo 目錄執行 classify_image.py 程式：<br>
       $cd /usr/local/lib/python3.5/dist-packages/edgetpu/demo
       $python3 classify_image.py \
        --model ~/Downloads/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
        --label ~/Downloads/inat_bird_labels.txt \
-       --image ~/Downloads/parrot.jpg <br>    
+       --image ~/Downloads/parrot.jpg <br>   
+         <b> B. Object Detection </b> <br>
+       使用 SSD MobileNet V2 所訓練的臉孔偵測模型；一樣先下載預訓練模型及示範圖片： <br>
+       接著執行 demo 目錄中的 object_detection.py 程式 <br>
+       $cd /usr/local/lib/python3.5/dist-packages/edgetpu/demo
+       $python3 object_detection.py \
+        --model ~/Downloads/mobilenet_ssd_v2_face_quant_postprocess_edgetpu.tflite \
+        --input ~/Downloads/face.jpg \
+        --output ~/detection_results.jpg <br>
       <li> <a href='https://blog.cavedu.com/2019/10/12/google-coral-usb-accelerator-teachable-machine/'>用 Google Coral USB Accelerator 搭配 Raspberry Pi 實作 Teachable Machine </a> <br>
       <li> <a href='https://atticedu.com/index.php/blog/raspberry-pi-%E6%A8%B9%E8%8E%93%E6%B4%BE/25-%E3%80%90%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%95%99%E5%AD%B8%E3%80%91-%E5%88%A9%E7%94%A8google-edge-tpu%E6%89%93%E9%80%A0teachable-machine.html'> 利用Google Edge TPU打造Teachable Machine </a>
    </ur> <br>
