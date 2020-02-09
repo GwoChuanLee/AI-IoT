@@ -49,12 +49,12 @@
      安裝前請拔掉 Accelerator 
       <ul>
         <li> A.下載 Edge TPU API <br>
-            cd ~/ <br>
-            wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz –trust-server-names <br>
-            tar xzf edgetpu_api.tar.gz <br>
+            $cd ~/ <br>
+            $wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz –trust-server-names <br>
+            $tar xzf edgetpu_api.tar.gz <br>
         <li> B. 安裝 Edge TPU API <br>
-            cd edgetpu_api <br>
-            bash ./install.sh <br><br>
+            $cd edgetpu_api <br>
+            $bash ./install.sh <br><br>
             [Now its ok here]<br>
       </ul>
       安裝後再接上 Accelerator  <br>
