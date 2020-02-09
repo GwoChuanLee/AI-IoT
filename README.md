@@ -63,18 +63,18 @@
       依參考文件下載預訓練好的模型及示範圖片，若無法下載，可利用google搜尋網路上parrot.jpg 圖片  <br>
       下載完成後，進入 demo 目錄執行 classify_image.py 程式：<br>
       $cd /usr/local/lib/python3.5/dist-packages/edgetpu/demo <br>
-      $python3 classify_image.py \
-       --model ~/Downloads/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
-       --label ~/Downloads/inat_bird_labels.txt \
+      $python3 classify_image.py <br>
+       --model ~/Downloads/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite <br>
+       --label ~/Downloads/inat_bird_labels.txt <br>
        --image ~/Downloads/parrot.jpg <br>   
          <b> B. Object Detection </b> <br>
        先安裝 feh 這支 image viewer 程式 <br>
        $sudo apt-get install feh <br>
        接著使用 SSD MobileNet V2 所訓練的臉孔偵測模型來偵測人臉；一樣先下載預訓練模型及示範圖片： <br>
        接著執行 demo 目錄中的 object_detection.py 程式 <br>
-       $python3 object_detection.py \
-        --model ~/Downloads/mobilenet_ssd_v2_face_quant_postprocess_edgetpu.tflite \
-        --input ~/Downloads/face.jpg \<
+       $python3 object_detection.py <br>
+        --model ~/Downloads/mobilenet_ssd_v2_face_quant_postprocess_edgetpu.tflite <br>
+        --input ~/Downloads/face.jpg <br>
         --output ~/detection_results.jpg <br>
       <li> 其他測試文件參考：<br>
          <ul>
