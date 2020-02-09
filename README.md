@@ -82,7 +82,8 @@
             <li> <a href='https://atticedu.com/index.php/blog/raspberry-pi-%E6%A8%B9%E8%8E%93%E6%B4%BE/25-%E3%80%90%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%95%99%E5%AD%B8%E3%80%91-%E5%88%A9%E7%94%A8google-edge-tpu%E6%89%93%E9%80%A0teachable-machine.html'> 利用Google Edge TPU打造Teachable Machine </a>
          </ul> <br>
    </ur> <br>
-</ul>
+</ul> <br>
+
 # RPi4 & Google Coral TPU Edge 安裝測試
 
 # NVIDIA Jetson Nano 安裝測試
