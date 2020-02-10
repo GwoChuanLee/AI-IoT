@@ -88,6 +88,8 @@
 
 # NVIDIA Jetson Nano 安裝測試
 
+# YoloV3
+
 # AI-CAR 
 <ul>
 <li><a href='https://github.com/cavedunissin/ai-car'>實戰AI資料導向式學習 [cavedu ai-car project]</a>
