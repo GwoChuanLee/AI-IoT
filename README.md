@@ -95,6 +95,7 @@
 # AI-CAR 
 <ul>
 <li><a href='https://github.com/cavedunissin/ai-car'>實戰AI資料導向式學習 [cavedu ai-car project]</a> <br>
+<li> <a href='https://drive.google.com/drive/folders/1NfOhFq9XdfBPw_AbRigasd4_mTfZosuu'>ai-car.zip </a> <br>
 <li> 測試指令: <br>
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 --video-type file --source example_1.mp4 <br>
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 --video-type file --source example_1.mp4 --gui <br>
