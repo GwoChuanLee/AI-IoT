@@ -95,7 +95,7 @@
          <tr><td>RPi3 </td><td> 0.22 sec</td><td> 0.02 sec</td></tr>
          <tr><td>RPi4 </td><td> 0.11 sec</td><td>       </td></tr>
       </table>
-    <li> 校能比較2 : webcam <br><br>
+    <li> 校能比較2 : webcam/Logic C270 <br><br>
       <table>
          <tr><td>     </td><td> keras </td><td>ncs2/openvino</td></tr>
          <tr><td>RPi3 </td><td> sec</td><td> sec</td></tr>
