@@ -107,8 +107,9 @@
 # RPi4 & Google Coral TPU Edge 安裝測試
 
 <ul>
-  <li>  <a href='https://hackmd.io/@0p3Xnj8xQ66lEl0EHA_2RQ/H1dgMOx1L#Raspberry-PI4--Coral-USB--posenet-%E5%A7%BF%E6%85%8B%E8%AD%98%E5%88%A5'> Raspberry PI4 + Coral USB + posenet 姿態識別 </a> <br>
+   
   <li>  <a href='https://blog.cavedu.com/2019/10/09/raspberry-pi4-tensorflow-lite-for-python-coral-usb-accelerator/'> 在Raspberry Pi4上安裝Tensorflow Lite for python以及Coral USB Accelerator套件 </a> <br>
+   <li>  <a href='https://hackmd.io/@0p3Xnj8xQ66lEl0EHA_2RQ/H1dgMOx1L#Raspberry-PI4--Coral-USB--posenet-%E5%A7%BF%E6%85%8B%E8%AD%98%E5%88%A5'> Raspberry PI4 + Coral USB + posenet 姿態識別 </a> <br> 
   <li>
    
 </ul>   
