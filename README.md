@@ -43,7 +43,7 @@
 </ol>
 
 # RPi3 & Google Coral TPU Edge 安裝測試 [2020.2.9]
-<ul>
+<ol>
   <li> <b>安裝 Coral TPU API: 參考 <a href='https://makerpro.cc/2019/07/google-coral-usb-accelerator-review/'> 【AI邊緣運算】Google Coral USB Accelerator 開箱評比 </a> </b> <br>    
       <ul>
         <li> 安裝前請拔掉 Accelerator 
@@ -82,7 +82,7 @@
             <li> <a href='https://atticedu.com/index.php/blog/raspberry-pi-%E6%A8%B9%E8%8E%93%E6%B4%BE/25-%E3%80%90%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%95%99%E5%AD%B8%E3%80%91-%E5%88%A9%E7%94%A8google-edge-tpu%E6%89%93%E9%80%A0teachable-machine.html'> 利用Google Edge TPU打造Teachable Machine </a>
          </ul> <br>
    </ur> <br>
-</ul> 
+</ol> 
 
 # RPi4 & Intel OpenVINO 安裝測試 
 
@@ -91,7 +91,7 @@
 # NVIDIA Jetson Nano 安裝測試
 
 # AI-CAR 
-<ul>
+<ol>
 <li><a href='https://github.com/cavedunissin/ai-car'>實戰AI資料導向式學習 [cavedu ai-car project]</a> <br>
 <li><a href='https://drive.google.com/drive/folders/1NfOhFq9XdfBPw_AbRigasd4_mTfZosuu'>ai-car.zip [2019.7月版/測試無誤]</a> <br>
 <li> PC 上訓練模型: <br>
@@ -101,7 +101,7 @@
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 --video-type file --source example_1.mp4 --gui <br>
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 <br>
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 --gui<br>  
-</ul>
+</ol>
 
 # Donkey Car
 
