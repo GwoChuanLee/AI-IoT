@@ -99,7 +99,7 @@
       <table>
          <tr><td>     </td><td> keras </td><td>ncs2/openvino</td></tr>
          <tr><td>RPi3 </td><td> sec</td><td> sec</td></tr>
-         <tr><td>RPi4 </td><td> 0.13sec</td><td>       </td></tr>
+         <tr><td>RPi4 </td><td> 0.14sec</td><td>       </td></tr>
       </table>
 </ol>
 
