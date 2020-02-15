@@ -105,6 +105,13 @@
 
 # RPi4 & Google Coral TPU Edge 安裝測試
 
+<ul>
+  <li>  <a href='https://hackmd.io/@0p3Xnj8xQ66lEl0EHA_2RQ/H1dgMOx1L#Raspberry-PI4--Coral-USB--posenet-%E5%A7%BF%E6%85%8B%E8%AD%98%E5%88%A5'> Raspberry PI4 + Coral USB + posenet 姿態識別 </a> <br>
+  <li>
+  <li>
+   
+</ul>   
+
 # NVIDIA Jetson Nano 安裝測試
 
 # AI-CAR 
