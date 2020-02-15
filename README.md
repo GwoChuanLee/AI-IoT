@@ -89,9 +89,9 @@
    <li> RPi4 Tensorflow & Keras 安裝 <br>
    <li> RPi4 Opencv 安裝 <br>
    <li> RPi4 OpenVINO 安裝 <br>
-   <li> Performance Study <br>
+   <li> Performance Study : Test for example_1.mp4 <br>
       <table>
-         <tr><td>     </td><td> keras:example1.mp4 </td><td>ncs2/openvino:example1.mp4</td></tr>
+         <tr><td>     </td><td> keras </td><td>ncs2/openvino</td></tr>
          <tr><td>RPi3 </td><td> 0.22 sec</td><td> 0.02 sec</td></tr>
          <tr><td>RPi4 </td><td> 0.11 sec</td><td>       </td></tr>
       </table>
