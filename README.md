@@ -26,11 +26,11 @@
       <li> 測試指令1: [修正參考文件路徑錯誤] <br>
          $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
          --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
-         --source [your path]example_1.mp4 <br>
+         --source [path]example_1.mp4 <br>
       <li> 測試指令2: [加上 --gui 可顯示畫面] <br>
          $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
          --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
-         --source [your path]example_1.mp4 --gui <br>      
+         --source [path]example_1.mp4 --gui <br>      
       <li> 測試指令3: [使用 webcam 讀取即時影像] <br>
          $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
          --weights-file ../openvino_model/movidius2_model/saved_model.bin --gui <br>
