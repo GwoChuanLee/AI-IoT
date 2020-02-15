@@ -85,6 +85,11 @@
 </ol> 
 
 # RPi4 & Intel OpenVINO 安裝測試 
+<ol>
+   <li> RPi4 Tensorflow & Keras 安裝 <br>
+   <li> RPi4 Opencv 安裝 <br>
+   <li> RPi4 OpenVINO 安裝 <
+</ol>
 
 # RPi4 & Google Coral TPU Edge 安裝測試
 
