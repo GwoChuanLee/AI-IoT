@@ -1,12 +1,14 @@
-# AI&IoT
-<ul>
-<li>  NodeMCU & 溫度感應器    
-<li>  Respeaker & 智慧語音 : 智慧音箱
-<li>  三軸感測器[MPU6050] & 摔倒偵測系統
-<li>  Raspberry Pi3/4 & Intel® Movidius™神經運算棒 NCS2
-<li>  Raspberry Pi3/4 & GOOGLE Coral Accelerator EDGE TPU Coprocessor
-<li>  NVIDIA Jetson Nano 
-</ul>
+# Jetson TX2 Install [2020.10.2]
+
+0. 刷機 JetPack 4.3
+
+[Ref1]
+[Ref2]
+
+1.
+
+
+
 
 # RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
 
