@@ -94,7 +94,7 @@ python3 [then import cv2]
 
 # Tensorflow on TX2
 Ref1:  K_程式人 https://jennaweng0621.pixnet.net/blog/post/403826915-%5Btx2%5D-%E5%AE%89%E8%A3%9Dtensorflow-gpu [有問題]
-Ref2: [  ]    https://forums.developer.nvidia.com/t/tensorflow-for-jetson-tx2/64596
+Ref2:  官網    https://forums.developer.nvidia.com/t/tensorflow-for-jetson-tx2/64596
 
 sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
 sudo apt-get install python3-pip
