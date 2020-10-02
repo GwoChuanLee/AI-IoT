@@ -92,7 +92,7 @@ sudo make -j4 <br>
 sudo make install <br>
 
 python3 
->>import cv2]<br>
+'>>import cv2]<br>
 
 # Tensorflow on TX2 [測]
 Ref1:  K_程式人 https://jennaweng0621.pixnet.net/blog/post/403826915-%5Btx2%5D-%E5%AE%89%E8%A3%9Dtensorflow-gpu [有問題]
