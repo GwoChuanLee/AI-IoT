@@ -1,6 +1,6 @@
 # Jetson TX2 Install [2020.10.2]
 
-0. ＴＸ２　刷機 JetPack 4.3　〔ＯＫ〕
+# TX2 刷機 JetPack 4.3 [OK]
 
 [Ref1] (鴻鵠國際) TX2安裝教學(中文)   http://www.honghutech.com/nvidia-jeston-tx2/flashtx2
 [Ref2] Jetson TX2 使用 SDK Manager刷机（JetPack4.2版本) https://blog.csdn.net/u012254599/article/details/100009909
@@ -16,11 +16,8 @@ TX2先关机，然后拔掉TX2的电源，TX2再开机，
 
 進行　Ｆｌａｓｈ　ＯＳ　
 
-
-1.  K—程式人： TX2 安裝 opencv [OK]
-
-參考：
-https://jennaweng0621.pixnet.net/blog/post/403827017-%5Btx2%5D-tx2%E5%AE%89%E8%A3%9Dopencv
+# Python3.6 下 TX2 安裝 opencv3.4 [OK]
+Ref.  K—程式人： TX2 安裝 opencv  https://jennaweng0621.pixnet.net/blog/post/403827017-%5Btx2%5D-tx2%E5%AE%89%E8%A3%9Dopencv
 
 wget https://github.com/opencv/opencv/archive/3.4.3.zip
 
