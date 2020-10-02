@@ -92,9 +92,17 @@ sudo make -j4
 sudo make install
 python3 [then import cv2]
 
+# Tensorflow on TX2
+Ref: https://forums.developer.nvidia.com/t/tensorflow-for-jetson-tx2/64596
 
-
-
+sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
+sudo apt-get install python3-pip
+sudo pip3 install -U pip
+sudo pip3 install -U numpy grpcio absl-py py-cpuinfo psutil portpicker six mock requests gast h5py astor termcolor protobuf keras-applications keras-preprocessing wrapt google-pasta
+# TF-2.x
+$ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==2.1.0+nv20.3
+# TF-1.15
+$ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==1.15.2+nv20.3
 
 
 # RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
