@@ -8,6 +8,84 @@
 1.
 
 
+1.  K—程式人： TX2 安裝 opencv [OK]
+[Ref: google===>tx2 python3 opencv 安裝]
+
+https://jennaweng0621.pixnet.net/blog/post/403827017-%5Btx2%5D-tx2%E5%AE%89%E8%A3%9Dopencv
+
+wget https://github.com/opencv/opencv/archive/3.4.3.zip
+
+unzip 3.4.3.zip
+
+安裝其它套件 : ubuntu version 18.04
+
+sudo apt-get install \
+libglew-dev \
+libtfff5-dev \
+zliblg-dev \
+libjpeg-dev \
+libpng-dev \
+libjasper-dev \
+libavcodec-dec \
+libavformat-dev \
+libavutil-dev \
+libpostproc-dev \
+libwscale-dev \
+libeigen3-dev \
+libtbb-dev \
+libgtk2.0-dev \
+pkg-config
+
+
+sudo apt-get update
+sudo apt-get install cmake [安裝 cmake]
+
+sudo apt-get purge libopencv* [刪除之前opencv]
+
+cd opencv-3.4.3
+mkdir build
+cd build
+
+編繹 opencv 套件
+
+cmake \
+-DCMAKE_BUILD_TYPE=Release \
+-DCMAKE_INSTALL_PREFIX=/usr/local \
+-DBUILD_PNG=OFF \
+-DBUILD_TIFF=OFF \
+-DBUILD_TBB=OFF \
+-DBUILD_JPEG=OFF \
+-DBUILD_JASPER=OFF \
+-DBUILD_ZLIB=OFF \
+-DBUILD_EXAMPLES=ON \
+-DBUILD_opencv_java=OFF \
+-DBUILD_opencv_python2=OFF \
+-DBUILD_opencv_python3=ON \
+-DENABLE_PRECOMPILED_HEADERS=OFF \
+-DWITH_OPENCL=OFF \
+-DWITH_OPENMP=OFF \
+-DWITH_FFMPEG=ON \
+-DWITH_GSTREAMER=OFF \
+-DWITH_GSTREAMER_0_10=OFF \
+-DWITH_CUDA=ON \
+-DWITH_GTK=ON \
+-DWITH_VTK=OFF \
+-DWITH_TBB=OFF \
+-DWITH_1394=OFF \
+-DWITH_OPENEXR=OFF \
+-DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda \
+-DCUDA_ARCH_BIN=6.2 \
+-DCUDA_ARCH_PTX="" \
+-DINSTALL_C_EXAMPLES=OFF \
+-DINSTALL_TESTS=OFF \
+
+sudo make -j4
+sudo make install
+python3 [then import cv2]
+
+
+
+
 
 
 # RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
