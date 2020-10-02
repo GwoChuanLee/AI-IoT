@@ -43,14 +43,14 @@ libgtk2.0-dev \
 pkg-config
 
 
-sudo apt-get update
-sudo apt-get install cmake [安裝 cmake]
+sudo apt-get update <br>
+sudo apt-get install cmake [安裝 cmake] <br>
 
-sudo apt-get purge libopencv* [刪除之前opencv]
+sudo apt-get purge libopencv* [刪除之前opencv] <br>
 
-cd opencv-3.4.3
-mkdir build
-cd build
+cd opencv-3.4.3 <br>
+mkdir build <br>
+cd build <br>
 
 編繹 opencv 套件
 
@@ -85,9 +85,10 @@ cmake \
 -DINSTALL_C_EXAMPLES=OFF \
 -DINSTALL_TESTS=OFF \
 
-sudo make -j4
-sudo make install
-python3 [then import cv2]
+sudo make -j4 <br>
+sudo make install <br>
+python3 
+>>import cv2]<br>
 
 # Tensorflow on TX2
 Ref1:  K_程式人 https://jennaweng0621.pixnet.net/blog/post/403826915-%5Btx2%5D-%E5%AE%89%E8%A3%9Dtensorflow-gpu [有問題]
