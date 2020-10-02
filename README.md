@@ -91,7 +91,7 @@ cmake \
 sudo make -j4 <br>
 sudo make install <br>
 
-python3 
+python3 <br>
 import cv2<br>
 
 # Tensorflow on TX2 [測]
