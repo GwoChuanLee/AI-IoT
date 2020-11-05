@@ -2,7 +2,7 @@
 # 講題: 使用邊緣運算器加速樹莓派運行人工智慧 [2020/11/18(三)]
 
 
-# RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
+# RPi3 & Intel OpenVINO 安裝測試 
 
 <ol>
 <li> 下載 openvino <br>
