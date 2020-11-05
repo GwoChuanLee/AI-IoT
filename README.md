@@ -2,6 +2,43 @@
 # 講題: 使用邊緣運算器加速樹莓派運行人工智慧 [2020/11/18(三)]
 
 
+# RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
+
+<ol>
+<li> 下載 openvino <br>
+   $wget https://download.01.org/openvinotoolkit/2018_R5/packages/l_openvino_toolkit_ie_p_2018.5.445.tgz
+<li> 解壓縮 <br> 
+   $tar -xvf l_openvino_toolkit_ie_p_2018.5.445.tgz <br>
+<li> 安裝程序:  <a href='https://blog.cavedu.com/2019/04/02/ncs2-openvino/'>使用Intel® Movidius™神經運算棒 2 & OpenVINO-在樹莓派上跑自駕車</a> <br>
+<li> 下載測試資料與程式碼 [執行OpenVINO™ — 方向牌辨識]<br>
+   <ul>
+      <li> 下載測試套件: <br> 
+       $git clone https://github.com/cavedunissin/raspberrypi3_openvino <br>
+      <li> 下載測試影片檔 : example_1.mp4  <br>
+       $git clone https://github.com/cavedunissin/ai-car.git <br>
+      <li> 測試程序參考文件: <a href='https://makerpro.cc/2019/08/raspberrypicar-sign-identification-through-tensorflow-machine-learningraspberrypi/'> OpenVINO™教學- 透過Tensorflow機器學習在RaspberryPi小車上辨識號誌</a> <br>  
+      <li> 測試指令1: [修正參考文件路徑錯誤] <br>
+         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
+         --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
+         --source [path]example_1.mp4 <br>
+      <li> 測試指令2: [加上 --gui 可顯示畫面] <br>
+         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
+         --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
+         --source [path]example_1.mp4 --gui <br>      
+      <li> 測試指令3: [使用 webcam 讀取即時影像] <br>
+         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
+         --weights-file ../openvino_model/movidius2_model/saved_model.bin --gui <br>
+   </ul> <br>
+ 
+<li> 其他安裝與測試參考: <br>
+   <ul>
+      <li> <a href='https://chtseng.wordpress.com/2019/01/21/intel-openvino%E4%BB%8B%E7%B4%B9%E5%8F%8A%E6%A8%B9%E8%8E%93%E6%B4%BE%E3%80%81linux%E7%9A%84%E5%AE%89%E8%A3%9D/'>Intel OpenVINO介紹及樹莓派、Linux的安裝-CH Tseng</a> <br>
+   </ul>
+</ol>
+
+
+
+
 
 # Jetson TX2 Install [2020.10.2]
 
@@ -113,39 +150,6 @@ $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.co
 $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==1.15.2+nv20.3  <br>
 
 
-# RPi3 & Intel OpenVINO 安裝測試 [2020.2.9]
-
-<ol>
-<li> 下載 openvino <br>
-   $wget https://download.01.org/openvinotoolkit/2018_R5/packages/l_openvino_toolkit_ie_p_2018.5.445.tgz
-<li> 解壓縮 <br> 
-   $tar -xvf l_openvino_toolkit_ie_p_2018.5.445.tgz <br>
-<li> 安裝程序:  <a href='https://blog.cavedu.com/2019/04/02/ncs2-openvino/'>使用Intel® Movidius™神經運算棒 2 & OpenVINO-在樹莓派上跑自駕車</a> <br>
-<li> 下載測試資料與程式碼 [執行OpenVINO™ — 方向牌辨識]<br>
-   <ul>
-      <li> 下載測試套件: <br> 
-       $git clone https://github.com/cavedunissin/raspberrypi3_openvino <br>
-      <li> 下載測試影片檔 : example_1.mp4  <br>
-       $git clone https://github.com/cavedunissin/ai-car.git <br>
-      <li> 測試程序參考文件: <a href='https://makerpro.cc/2019/08/raspberrypicar-sign-identification-through-tensorflow-machine-learningraspberrypi/'> OpenVINO™教學- 透過Tensorflow機器學習在RaspberryPi小車上辨識號誌</a> <br>  
-      <li> 測試指令1: [修正參考文件路徑錯誤] <br>
-         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
-         --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
-         --source [path]example_1.mp4 <br>
-      <li> 測試指令2: [加上 --gui 可顯示畫面] <br>
-         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
-         --weights-file ../openvino_model/movidius2_model/saved_model.bin --video-type file <br>
-         --source [path]example_1.mp4 --gui <br>      
-      <li> 測試指令3: [使用 webcam 讀取即時影像] <br>
-         $python3 ./movidius_video.py --model-file ../openvino_model/movidius2_model/saved_model.xml <br>
-         --weights-file ../openvino_model/movidius2_model/saved_model.bin --gui <br>
-   </ul> <br>
- 
-<li> 其他安裝與測試參考: <br>
-   <ul>
-      <li> <a href='https://chtseng.wordpress.com/2019/01/21/intel-openvino%E4%BB%8B%E7%B4%B9%E5%8F%8A%E6%A8%B9%E8%8E%93%E6%B4%BE%E3%80%81linux%E7%9A%84%E5%AE%89%E8%A3%9D/'>Intel OpenVINO介紹及樹莓派、Linux的安裝-CH Tseng</a> <br>
-   </ul>
-</ol>
 
 # RPi3 & Google Coral TPU Edge 安裝測試 [2020.2.9]
 <ol>
@@ -189,6 +193,17 @@ $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.co
    </ur> <br>
 </ol> 
 
+
+# RPi4 & Google Coral TPU Edge 安裝測試
+
+<ul>
+   
+  <li>  <a href='https://blog.cavedu.com/2019/10/09/raspberry-pi4-tensorflow-lite-for-python-coral-usb-accelerator/'> 在Raspberry Pi4上安裝Tensorflow Lite for python以及Coral USB Accelerator套件 </a> <br>
+   <li>  <a href='https://hackmd.io/@0p3Xnj8xQ66lEl0EHA_2RQ/H1dgMOx1L#Raspberry-PI4--Coral-USB--posenet-%E5%A7%BF%E6%85%8B%E8%AD%98%E5%88%A5'> Raspberry PI4 + Coral USB + posenet 姿態識別 </a> <br> 
+  <li>
+   
+</ul>   
+
 # RPi4 & Intel OpenVINO 安裝測試 
 <ol>
    <li> RPi4 Tensorflow & Keras 安裝 <br>
@@ -208,15 +223,7 @@ $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.co
       </table>
 </ol>
 
-# RPi4 & Google Coral TPU Edge 安裝測試
 
-<ul>
-   
-  <li>  <a href='https://blog.cavedu.com/2019/10/09/raspberry-pi4-tensorflow-lite-for-python-coral-usb-accelerator/'> 在Raspberry Pi4上安裝Tensorflow Lite for python以及Coral USB Accelerator套件 </a> <br>
-   <li>  <a href='https://hackmd.io/@0p3Xnj8xQ66lEl0EHA_2RQ/H1dgMOx1L#Raspberry-PI4--Coral-USB--posenet-%E5%A7%BF%E6%85%8B%E8%AD%98%E5%88%A5'> Raspberry PI4 + Coral USB + posenet 姿態識別 </a> <br> 
-  <li>
-   
-</ul>   
 
 # NVIDIA Jetson Nano 安裝測試
 
