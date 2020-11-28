@@ -211,10 +211,10 @@ https://blog.huanxiang.codes/FmfvUszCB/  <br>
 
 <hr>
 
-# RPi4 安裝 tensorflow 2.0 keras <br>
+# RPi4 安裝 tensorflow 2.2 <br>
 參考:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
 
-# TensorFlow 2.2.0 for Python 3
+# Install TensorFlow 2.2.0 for Python 3
 # get a fresh start <br>
 $ sudo apt-get update <br>
 $ sudo apt-get upgrade <br>
@@ -248,7 +248,9 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </p>
 
 <hr>
+# RPi4 安裝 keras <
 
+<hr>
 
 # (深耕計畫) 短期實務集訓課程 :  資工系, 教學發展中心
 # 講題: 使用邊緣運算器加速樹莓派運行人工智慧 [2020/11/18(三)]
