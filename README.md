@@ -20,12 +20,14 @@ sudo apt-get install tightvncserver <br>
 
 6. 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
-# pi4 安裝 opencv : <br>
+# RPi4 安裝 opencv : <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680
 
-# pi4 安裝 tensorflow 2.0 keras <br>
+# RPi4 安裝 tensorflow 2.0 keras <br>
 
+
+<hr>
 
 
 # (深耕計畫) 短期實務集訓課程 :  資工系, 教學發展中心
