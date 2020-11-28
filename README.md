@@ -3,7 +3,7 @@
 1. 官網下載最新 os image: https://www.raspberrypi.org/software/operating-systems/  <br>
 Raspberry Pi OS with desktop and recommended software <br>
 Release date: August 20th 2020  <br>
-Kernel version: 5.4 <br>
+Kernel version: Linux raspberrypi 5.4.51-v7l+ <br>
 
 2. 使用 SD Card Formatter 格式化後, 用 balenaEtcher 燒錄 image 到 SD cdcard
 
@@ -20,10 +20,11 @@ sudo apt-get install tightvncserver <br>
 
 6. 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
-7. 安裝 opencv : <br>
+# pi4 安裝 opencv : <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680
 
+# pi4 安裝 tensorflow 2.0 keras <br>
 
 
 
