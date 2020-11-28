@@ -7,7 +7,7 @@ Kernel version: Linux raspberrypi 5.4.51-v7l+ <br>
 
 2. 使用 SD Card Formatter 格式化後, 用 balenaEtcher 燒錄 image 到 SD cdcard
 
-3. pi4 接螢幕設定 wifi 連接 <br>
+3. pi4 接螢幕設定 wifi  <br>
 查 ip <br>
 $ifconfig <br>
 
@@ -18,7 +18,7 @@ Preferences --> Raspberry Pi Configuratin --> interfaces --> Camera, SSH : Enabl
 sudo apt-get update  <br>
 sudo apt-get install tightvncserver <br>
 
-6. 使用 Mobiterm, Vncserver client 遠端連接 <br>
+6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
 # RPi4 安裝 opencv : <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
