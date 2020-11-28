@@ -212,7 +212,32 @@ https://blog.huanxiang.codes/FmfvUszCB/  <br>
 <hr>
 
 # RPi4 安裝 tensorflow 2.0 keras <br>
+參考:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
 
+# TensorFlow 2.2.0 for Python 3
+# get a fresh start <br>
+$ sudo apt-get update <br>
+$ sudo apt-get upgrade <br>
+# remove old versions, if not placed in a virtual environment (let pip search for them) <br>
+$ sudo pip uninstall tensorflow <br>
+$ sudo pip3 uninstall tensorflow <br>
+# install the dependencies (if not already onboard) <br>
+$ sudo apt-get install gfortran <br>
+$ sudo apt-get install libhdf5-dev libc-ares-dev libeigen3-dev <br>
+$ sudo apt-get install libatlas-base-dev libopenblas-dev libblas-dev <br>
+$ sudo apt-get install liblapack-dev cython <br>
+$ sudo -H pip3 install pybind11 <br>
+$ sudo -H pip3 install h5py==2.10.0 <br>
+# upgrade setuptools 40.8.0 -> 50.3.2 <br>
+$ sudo -H pip3 install --upgrade setuptools <br>
+# install gdown to download from Google drive <br>
+$ pip install gdown <br>
+# copy binairy <br>
+$ sudo cp /home/pi/.local/bin/gdown /usr/local/bin/gdown <br>
+# download the wheel <br>
+$ gdown https://drive.google.com/uc?id=11mujzVaFqa7R1_lB7q0kVPW22Ol51MPg  <br>
+# install TensorFlow <br>
+$ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
 <hr>
 
