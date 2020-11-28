@@ -88,7 +88,7 @@ make 文件成功完成生成後，現在通過運行以下指令最終繼續編
 $ make -j$(nproc)  [久] <br>
 
 <p align="center">
-    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png" alt="Sample"  width="500" height="300">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png" alt="Sample"  width="500" height="350">
     <p align="center">
         <b>opencv4編譯成功</b>
     </p>
@@ -132,9 +132,9 @@ $ python3 <br>
 ‘4.5.0’ <br>
 
 <p align="center">
-    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png" alt="Sample"  width="500" height="300">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
-        <b>opencv4編譯成功</b>
+        <b>cv2 導入成功</b>
     </p>
 </p>
 
