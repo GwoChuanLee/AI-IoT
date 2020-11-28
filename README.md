@@ -1,4 +1,4 @@
-# RPi4 安裝 Note [2020/11/27]
+# RPi4 OS 安裝 [2020/11/27]
 
 1. 官網下載最新 os image: https://www.raspberrypi.org/software/operating-systems/  <br>
 Raspberry Pi OS with desktop and recommended software <br>
