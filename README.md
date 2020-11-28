@@ -241,7 +241,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
 
 <p align="center">
-    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/tensorflow-2.2_import.png" alt="Sample"  width="500" height="350">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/tensorflow2.2_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
         <b>tensorflow 導入成功</b>
     </p>
