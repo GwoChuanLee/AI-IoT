@@ -239,6 +239,14 @@ $ gdown https://drive.google.com/uc?id=11mujzVaFqa7R1_lB7q0kVPW22Ol51MPg  <br>
 # install TensorFlow <br>
 $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
+
+<p align="center">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/tensorflow-2.2_import.png" alt="Sample"  width="500" height="350">
+    <p align="center">
+        <b>tensorflow 導入成功</b>
+    </p>
+</p>
+
 <hr>
 
 
