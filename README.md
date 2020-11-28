@@ -21,8 +21,8 @@ sudo apt-get install tightvncserver <br>
 6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
 # RPi4 安裝 opencv :  <br>
-<b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
-https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
+<b>參考: Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
+網址: https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
 <b> A: 安裝 OpenCV 相關軟體。  </b><br>
 
@@ -97,7 +97,7 @@ $ sudo make install <br>
 重新生成操作系統庫鏈接緩存。如果不運行以下命令，Raspberry Pi將無法找到我們的OpenCV安裝。 <br>
 $ sudo ldconfig <br>
 
-# <b> C.編譯後的清理。 </b> <br>
+C.編譯後的清理。 <br>
 
 步驟 1:開啟交換文件。 <br>
 完成了 OpenCV 的編譯，不再需要這麼大的 swap 。通過運行以下指令開啟修改交換文件配置。<br>
@@ -119,11 +119,10 @@ $ sudo systemctl restart dphys-swapfile <br>
 $ python3 <br>
 
 步驟2:使用以下命令導入 OpenCV 模塊。沒有任何反應代表導入成功。 <br>
-import cv2  <br>
+>>> import cv2  <br>
 
 步驟3:入了 OpenCV 模塊，應該能夠查詢版本。 <br>
-cv2.__version__  <br>
-
+>>> cv2.__version__  <br>
 應該在命令行中看到如下所示的文本。 <br>
 ‘4.5.0’ <br>
 ![image](https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png)
