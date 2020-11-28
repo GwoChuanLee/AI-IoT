@@ -20,7 +20,7 @@ sudo apt-get install tightvncserver <br>
 
 6. 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
-7. 安裝 opencv <br>
+7. 安裝 opencv : Raspberry Pi安裝OpenCV_安裝篇 <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680
 
 
