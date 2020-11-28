@@ -22,64 +22,64 @@ sudo apt-get install tightvncserver <br>
 
 # RPi 指令 整理<br>
 
-1. 開關機
-sudo reboot #重開機
-sudo halt   #關機(比sudo poweroff安全)
+1. 開關機 <br>
+sudo reboot #重開機  <br>
+sudo halt   #關機(比sudo poweroff安全) <br>
 
-2. 套件管理
-sudo apt-get update             #更新軟體列表
-sudo apt-get upgrade            #更新軟體包
-sudo apt-get install <軟體名稱>  #安裝套件
-sudo apt-get remove <軟體名稱>   #移除套件
+2. 套件管理 <br>
+sudo apt-get update             #更新軟體列表 <br>
+sudo apt-get upgrade            #更新軟體包 <br>
+sudo apt-get install <軟體名稱>  #安裝套件 <br>
+sudo apt-get remove <軟體名稱>   #移除套件 <br>
 
-3. 查看SD卡空間狀況
-df -h
+3. 查看SD卡空間狀況 <br>
+df -h <br>
 
-4. 設定樹莓派系統參數
-sudo raspi-config
+4. 設定樹莓派系統參數 <br>
+sudo raspi-config <br>
 
-5. 查看溫度
-vcgencmd measure_temp
+5. 查看溫度 <br>
+vcgencmd measure_temp <br>
 
-6. 查看CPU和GPU記憶體
-vcgencmd get_mem arm #CPU
-vcgencmd get_mem gpu #GPU
+6. 查看CPU和GPU記憶體 <br>
+vcgencmd get_mem arm #CPU  <br>
+vcgencmd get_mem gpu #GPU  <br>
 
-7. 查看 kernel 版本
-uname -a
+7. 查看 kernel 版本 <br>
+uname -a <br>
 
-8. 查記憶體狀況
-free -h
+8. 查記憶體狀況 <br>
+free -h <br>
 
-8. 安裝軟體
-例如: 
-sudo apt-get install GIMP
-sudo apt-get install VLC
-sudo apt-get install thunderbird
+8. 安裝軟體 <br>
+例如:  <br>
+sudo apt-get install GIMP <br>
+sudo apt-get install VLC <br>
+sudo apt-get install thunderbird <br>
 
-9. 移除軟體
-dpkg --list                         #顯示已安裝的軟體
-sudo apt-get --purge remove XXX     #刪除上面指令清單中的XXX軟體
+9. 移除軟體 <br>
+dpkg --list                         #顯示已安裝的軟體 <br>
+sudo apt-get --purge remove XXX     #刪除上面指令清單中的XXX軟體 <br>
 
-10. 使用pip安裝Python套件
-sudo pip install <套件名稱>
+10. 使用pip安裝Python套件 <br>
+sudo pip install <套件名稱> <br>
 
-11. 安裝Python常用套件
-sudo apt-get install zip unzip    (壓縮解壓縮)
-pip3 install ipython              (Python Shell)
-pip3 install requests             (網頁擷取)
-pip3 install beautifulsoup4       (網頁解析)
-pip3 install selenium             (自動化工具)
-pip3 install django               (網頁開發框架)
-sudo apt-get install sqlite3      (SQLite 資料庫)
-sudo apt-get install r-base       (R 語言)
-sudo apt-get install nginx        (Web 伺服器)
-sudo pip3 install uWSGI           (WSGI 伺服器)
-pip3 install numpy                (科學計算)
-pip3 install scipy                (科學計算)
-pip3 install matplotlib           (2D 繪圖)
-pip3 install pandas               (數據處理)
-pip3 install scikit-learn…
+11. 安裝Python常用套件 <br>
+sudo apt-get install zip unzip    (壓縮解壓縮)  <br>
+pip3 install ipython              (Python Shell) <br>
+pip3 install requests             (網頁擷取)  <br>
+pip3 install beautifulsoup4       (網頁解析)  <br>
+pip3 install selenium             (自動化工具) <br>
+pip3 install django               (網頁開發框架) <br>
+sudo apt-get install sqlite3      (SQLite 資料庫) <br> 
+sudo apt-get install r-base       (R 語言) <br>
+sudo apt-get install nginx        (Web 伺服器) <br>
+sudo pip3 install uWSGI           (WSGI 伺服器) <br>
+pip3 install numpy                (科學計算) <br>
+pip3 install scipy                (科學計算) <br>
+pip3 install matplotlib           (2D 繪圖) <br>
+pip3 install pandas               (數據處理) <br>
+pip3 install scikit-learn…   
 
 
 # RPi4 安裝 opencv :  <br>
