@@ -89,6 +89,13 @@ $ make -j$(nproc)  [久] <br>
 
 ![image](https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png)
 
+<p align="center">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png" alt="Sample"  width="250" height="140">
+    <p align="center">
+        <em>圖片示例2</em>
+    </p>
+</p>
+
 步驟4: <br>
 編譯過程完成後，繼續安裝 OpenCV。此指令將自動將所有必需的文件複製到所需的位置。 <br>
 $ sudo make install <br>
