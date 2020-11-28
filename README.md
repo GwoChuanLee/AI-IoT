@@ -5,7 +5,7 @@ Raspberry Pi OS with desktop and recommended software <br>
 Release date: August 20th 2020  <br>
 Kernel version: Linux raspberrypi 5.4.51-v7l+ <br>
 
-2. 使用 SD Card Formatter 格式化後, 用 balenaEtcher 燒錄 image 到 SD cdcard
+2. 使用 SD Card Formatter 格式化後, 用 balenaEtcher 燒錄 image 到 SDcard
 
 3. pi4 接螢幕設定 wifi  <br>
 查 ip <br>
