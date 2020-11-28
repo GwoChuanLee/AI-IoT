@@ -81,6 +81,9 @@ pip3 install matplotlib           (2D 繪圖) <br>
 pip3 install pandas               (數據處理) <br>
 pip3 install scikit-learn…   
 
+[參考] <br>
+https://yanwei-liu.medium.com/raspberry-pi%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BA%94-pi-camera-python-opencv-6613c4ebe8a1
+
 
 # RPi4 安裝 opencv :  <br>
 <b>參考: Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
