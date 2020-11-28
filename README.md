@@ -20,7 +20,7 @@ sudo apt-get install tightvncserver <br>
 
 6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
-# RPi4 安裝 opencv : [需時久] <br>
+# RPi4 安裝 opencv :  <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
@@ -28,7 +28,7 @@ https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%
 
 步驟2:更新當前安裝的軟體。 <br>
 $ sudo apt-get update <br>
-$ sudo apt-get upgrade <br>
+$ sudo apt-get upgrade [久] <br>
 
 步驟3:安裝 OpenCV 編譯所需的軟體。 <br>
 $ sudo apt-get install cmake build-essential pkg-config git <br>
@@ -67,8 +67,8 @@ CONF_SWAPSIZE=100 <br>
 步驟3:重新啟動其服務。 <br>
 $ sudo systemctl restart dphys-swapfile <br>
 步驟4:將所需的兩個 OpenCV 存儲庫複製到 Raspberry Pi 中。以下指令會抓最新版本，可改成其他所需版本。 <br>
-$ git clone https://github.com/opencv/opencv.git  <br>
-$ git clone https://github.com/opencv/opencv_contrib.git  <br>
+$ git clone https://github.com/opencv/opencv.git  [久]<br>
+$ git clone https://github.com/opencv/opencv_contrib.git  [久]<br>
 
 
 <b> C.編譯 OpenCV。 </b> <br>
@@ -85,7 +85,7 @@ $ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV
 步驟3: <br>
 make 文件成功完成生成後，現在通過運行以下指令最終繼續編譯 OpenCV。 <br>
 我們使用參數 -j$(nproc) 來告訴編譯器為每個可用處理器運行編譯器。這樣做將加快編譯過程，並使Raspberry Pi上的每個內核都可以去編譯OpenCV。  <br>
-$ make -j$(nproc)  <br>
+$ make -j$(nproc)  [久] <br>
 
 步驟4: <br>
 編譯過程完成後，繼續安裝 OpenCV。此指令將自動將所有必需的文件複製到所需的位置。 <br>
