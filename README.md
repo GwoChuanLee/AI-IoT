@@ -109,7 +109,7 @@ CONF_SWAPSIZE=2048 <br>
 步驟3:重新啟動其服務。 <br>
 $ sudo systemctl restart dphys-swapfile <br>
 
-<b>D.測試 OpenCV。<b> <br>
+<b>D.測試 OpenCV。</b> <br>
    
 步驟 1:運行以下命令啟動Python終端。 <br>
 $ python3 <br>
