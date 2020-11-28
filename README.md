@@ -51,20 +51,23 @@ uname -a <br>
 8. 查記憶體狀況 <br>
 free -h <br>
 
-8. 安裝軟體 <br>
+9. 查 usb webcam 狀態 <br>
+sudo lsusb <br>
+
+10. 安裝軟體 <br>
 例如:  <br>
 sudo apt-get install GIMP <br>
 sudo apt-get install VLC <br>
 sudo apt-get install thunderbird <br>
 
-9. 移除軟體 <br>
+11. 移除軟體 <br>
 dpkg --list                         #顯示已安裝的軟體 <br>
 sudo apt-get --purge remove XXX     #刪除上面指令清單中的XXX軟體 <br>
 
-10. 使用pip安裝Python套件 <br>
+12. 使用pip安裝Python套件 <br>
 sudo pip install <套件名稱> <br>
 
-11. 安裝Python常用套件 <br>
+13. 安裝Python常用套件 <br>
 sudo apt-get install zip unzip    (壓縮解壓縮)  <br>
 pip3 install ipython              (Python Shell) <br>
 pip3 install requests             (網頁擷取)  <br>
