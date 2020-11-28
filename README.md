@@ -125,6 +125,7 @@ $ python3 <br>
 >>> cv2.__version__  <br>
 應該在命令行中看到如下所示的文本。 <br>
 ‘4.5.0’ <br>
+![image](https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png)
 [參考] <br>
 https://blog.huanxiang.codes/FmfvUszCB/  <br>
 
