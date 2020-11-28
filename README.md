@@ -22,7 +22,24 @@ sudo apt-get install tightvncserver <br>
 
 # RPi4 安裝 opencv : <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
-https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680
+https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
+
+
+步驟2:更新當前安裝的軟體。 <br>
+$ sudo apt-get update <br>
+$ sudo apt-get upgrade <br>
+
+步驟3:安裝 OpenCV 編譯所需的軟體。 <br>
+$ sudo apt-get install cmake build-essential pkg-config git <br>
+
+步驟4:安裝常用圖像和視頻格式的支援軟體。 <br>
+$ sudo apt-get install libjpeg-dev libtiff-dev libjasper-dev libpng-dev libwebp-dev libopenexr-dev <br>
+$ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libdc1394–22-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev <br>
+
+步驟5:安裝 OpenCV 界面所需的軟體。 <br>
+$ sudo apt-get install libgtk-3-dev libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 <br>
+
+
 
 # RPi4 安裝 tensorflow 2.0 keras <br>
 
