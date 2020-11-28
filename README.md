@@ -24,7 +24,7 @@ sudo apt-get install tightvncserver <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
-<b> A  </b><br>
+<b> A: 安裝 OpenCV 相關軟體。  </b><br>
 
 步驟2:更新當前安裝的軟體。 <br>
 $ sudo apt-get update <br>
