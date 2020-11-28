@@ -21,7 +21,7 @@ sudo apt-get install tightvncserver <br>
 6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
 # RPi4 安裝 opencv : [需時久] <br>
-<b> 參考: Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
+<b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
 <b> A: 安裝 OpenCV 相關軟體。  </b><br>
@@ -45,6 +45,8 @@ $ sudo apt-get install libatlas-base-dev liblapacke-dev gfortran <br>
 
 步驟7:安裝 HDF5軟體。 <br>
 $ sudo apt-get install libhdf5-dev libhdf5–103  <br>
+
+[找不到 libhdf5-103 不用理他]
 
 步驟8:安裝 Python 相依套件。  <br>
 $ sudo apt-get install python3-dev python3-pip python3-numpy <br>
