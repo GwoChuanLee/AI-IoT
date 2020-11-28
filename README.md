@@ -248,7 +248,8 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </p>
 
 <hr>
-# RPi4 安裝 keras <br>
+
+# <b> RPi4 安裝 keras </b> <br>
 
 <hr>
 
