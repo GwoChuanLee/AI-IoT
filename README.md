@@ -391,7 +391,4 @@ $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.co
    $python3 keras_video.py --model-file model.json --weights-file weights.h5 --gui<br>  
 </ol>
 
-# Donkey Car
-
-# Yolo V3
 
