@@ -87,6 +87,8 @@ make 文件成功完成生成後，現在通過運行以下指令最終繼續編
 我們使用參數 -j$(nproc) 來告訴編譯器為每個可用處理器運行編譯器。這樣做將加快編譯過程，並使Raspberry Pi上的每個內核都可以去編譯OpenCV。  <br>
 $ make -j$(nproc)  [久] <br>
 
+![image]()
+
 步驟4: <br>
 編譯過程完成後，繼續安裝 OpenCV。此指令將自動將所有必需的文件複製到所需的位置。 <br>
 $ sudo make install <br>
