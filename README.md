@@ -39,6 +39,32 @@ $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev 
 步驟5:安裝 OpenCV 界面所需的軟體。 <br>
 $ sudo apt-get install libgtk-3-dev libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 <br>
 
+步驟6:安裝提高 OpenCV 運行速度的軟體。 <br>
+$ sudo apt-get install libatlas-base-dev liblapacke-dev gfortran <br>
+
+步驟7:安裝 HDF5軟體。 <br>
+$ sudo apt-get install libhdf5-dev libhdf5–103  <br>
+
+步驟8:安裝 Python 相依套件。  <br>
+$ sudo apt-get install python3-dev python3-pip python3-numpy <br>
+
+
+<b> B.準備編譯 OpenCV。 </b><br>
+
+步驟 1:開啟交換文件。 <br>
+需要暫時增加交換空間 ( swap ) 的大小，以加快我們在 Raspberry Pi 上編譯 OpenCV 的過程。當RAM 用完時，系統將使用 swap。 <br>
+通過運行以下指令開啟修改交換文件配置。 <br>
+$ sudo nano /etc/dphys-swapfile <br>
+
+步驟2:修改交換空間 ( swap ) 的大小。 <br>
+找到下面這行， <br>
+CONF_SWAPSIZE=100
+替換成 CONF_SWAPSIZE=2048 ，將 100MB 的大小加大到 2048MB ，方便待會進行編譯。更改後，按 CTRL+ O 然後 Enter 保存，再 CTRL+ X 離開。
+步驟3:重新啟動其服務。
+$ sudo systemctl restart dphys-swapfile
+步驟4:將所需的兩個 OpenCV 存儲庫複製到 Raspberry Pi 中。以下指令會抓最新版本，可改成其他所需版本。
+$ git clone https://github.com/opencv/opencv.git
+$ git clone https://github.com/opencv/opencv_contrib.git
 
 
 # RPi4 安裝 tensorflow 2.0 keras <br>
