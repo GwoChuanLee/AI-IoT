@@ -1,4 +1,4 @@
-# RPi4 安裝 [2020/11/27]
+# RPi4 安裝 Note [2020/11/27]
 
 1. 官網下載最新 os image: https://www.raspberrypi.org/software/operating-systems/  <br>
 Raspberry Pi OS with desktop and recommended software <br>
@@ -24,6 +24,7 @@ sudo apt-get install tightvncserver <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
+<b> A  </b><br>
 
 步驟2:更新當前安裝的軟體。 <br>
 $ sudo apt-get update <br>
@@ -58,13 +59,58 @@ $ sudo nano /etc/dphys-swapfile <br>
 
 步驟2:修改交換空間 ( swap ) 的大小。 <br>
 找到下面這行， <br>
-CONF_SWAPSIZE=100
-替換成 CONF_SWAPSIZE=2048 ，將 100MB 的大小加大到 2048MB ，方便待會進行編譯。更改後，按 CTRL+ O 然後 Enter 保存，再 CTRL+ X 離開。
+CONF_SWAPSIZE=100 <br>
+替換成 CONF_SWAPSIZE=2048 ，將 100MB 的大小加大到 2048MB ，方便待會進行編譯。更改後，按 CTRL+ O 然後 Enter 保存，再 CTRL+ X 離開。 <br>
+
+步驟3:重新啟動其服務。 <br>
+$ sudo systemctl restart dphys-swapfile <br>
+步驟4:將所需的兩個 OpenCV 存儲庫複製到 Raspberry Pi 中。以下指令會抓最新版本，可改成其他所需版本。 <br>
+$ git clone https://github.com/opencv/opencv.git  <br>
+$ git clone https://github.com/opencv/opencv_contrib.git  <br>
+
+
+
+C.編譯 OpenCV。
+步驟 1:
+剛剛複製的“ opencv ”文件夾中創建一個名為“ build ”的目錄，然後將工作目錄更改為該目錄。
+$ mkdir ~/opencv/build
+$ cd ~/opencv/build
+步驟2:
+位於新創建的build文件夾中，現在可以 cmake 用來準備 OpenCV 以便在 Raspberry Pi 上進行編譯。運行以下指令以生成所需的makefile。
+$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D ENABLE_NEON=ON -D ENABLE_VFPV3=ON -D BUILD_TESTS=OFF -D INSTALL_PYTHON_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D CMAKE_SHARED_LINKER_FLAGS=-latomic -D BUILD_EXAMPLES=OFF ..
+步驟3:
+make 文件成功完成生成後，現在通過運行以下指令最終繼續編譯 OpenCV。
+我們使用參數 -j$(nproc) 來告訴編譯器為每個可用處理器運行編譯器。這樣做將加快編譯過程，並使Raspberry Pi上的每個內核都可以去編譯OpenCV。
+$ make -j$(nproc)
+步驟4:
+編譯過程完成後，繼續安裝 OpenCV。此指令將自動將所有必需的文件複製到所需的位置。
+$ sudo make install
+步驟5:
+重新生成操作系統庫鏈接緩存。如果不運行以下命令，Raspberry Pi將無法找到我們的OpenCV安裝。
+$ sudo ldconfig
+C.編譯後的清理。
+步驟 1:開啟交換文件。
+完成了 OpenCV 的編譯，不再需要這麼大的 swap 。通過運行以下指令開啟修改交換文件配置。
+$ sudo nano /etc/dphys-swapfile
+步驟2:修改交換空間 ( swap ) 的大小。
+找到下面這行，
+CONF_SWAPSIZE=2048
+替換成 CONF_SWAPSIZE=100 。更改後，按 CTRL+ O 然後 Enter 保存，再 CTRL+ X 離開。
 步驟3:重新啟動其服務。
 $ sudo systemctl restart dphys-swapfile
-步驟4:將所需的兩個 OpenCV 存儲庫複製到 Raspberry Pi 中。以下指令會抓最新版本，可改成其他所需版本。
-$ git clone https://github.com/opencv/opencv.git
-$ git clone https://github.com/opencv/opencv_contrib.git
+D.測試 OpenCV。
+步驟 1:運行以下命令啟動Python終端。
+$ python3
+步驟2:使用以下命令導入 OpenCV 模塊。沒有任何反應代表導入成功。
+>>> import cv2
+步驟3:入了 OpenCV 模塊，應該能夠查詢版本。
+>>> cv2.__version__
+應該在命令行中看到如下所示的文本。
+‘4.5.0’
+[參考]
+https://blog.huanxiang.codes/FmfvUszCB/
+
+
 
 
 # RPi4 安裝 tensorflow 2.0 keras <br>
