@@ -1,6 +1,26 @@
 # RPi4 安裝 [2020/11/28]
 
+1. 官網下載最新 os image: https://www.raspberrypi.org/software/operating-systems/
+Raspberry Pi OS with desktop and recommended software
+Release date: August 20th 2020
+Kernel version: 5.4
 
+2. 使用 SD Card Formatter 格式化後, 用 balenaEtcher 燒錄 image 到 SD cdcard
+
+3. pi4 接螢幕設定 wifi 連接
+查 ip
+$ifconfig 
+
+4. pi4 : open SSH 
+Preferences --> Raspberry Pi Configuratin --> interfaces --> Camera, SSH : Enable
+
+5. pi4:安裝 vncserver
+sudo apt-get update
+sudo apt-get install tightvncserver
+
+6. 使用 Mobiterm, Vncserver client 遠端連接
+
+7.
 
 
 
