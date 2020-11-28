@@ -90,7 +90,7 @@ $ make -j$(nproc)  [久] <br>
 ![image](https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png)
 
 <p align="center">
-    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png" alt="Sample"  width="250" height="140">
+    <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_install_complete.png" alt="Sample"  width="500" height="280">
     <p align="center">
         <em>圖片示例2</em>
     </p>
