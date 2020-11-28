@@ -20,7 +20,7 @@ sudo apt-get install tightvncserver <br>
 
 6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
-# RPi4 安裝 opencv : <br>
+# RPi4 安裝 opencv : [需時久] <br>
 <b> Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
 
