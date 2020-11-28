@@ -20,6 +20,68 @@ sudo apt-get install tightvncserver <br>
 
 6. PC/win10 使用 Mobiterm, Vncserver client 遠端連接 <br>
 
+# RPi 指令 整理<br>
+
+1. 開關機
+sudo reboot #重開機
+sudo halt   #關機(比sudo poweroff安全)
+
+2. 套件管理
+sudo apt-get update             #更新軟體列表
+sudo apt-get upgrade            #更新軟體包
+sudo apt-get install <軟體名稱>  #安裝套件
+sudo apt-get remove <軟體名稱>   #移除套件
+
+3. 查看SD卡空間狀況
+df -h
+
+4. 設定樹莓派系統參數
+sudo raspi-config
+
+5. 查看溫度
+vcgencmd measure_temp
+
+6. 查看CPU和GPU記憶體
+vcgencmd get_mem arm #CPU
+vcgencmd get_mem gpu #GPU
+
+7. 查看 kernel 版本
+uname -a
+
+8. 查記憶體狀況
+free -h
+
+8. 安裝軟體
+例如: 
+sudo apt-get install GIMP
+sudo apt-get install VLC
+sudo apt-get install thunderbird
+
+9. 移除軟體
+dpkg --list                         #顯示已安裝的軟體
+sudo apt-get --purge remove XXX     #刪除上面指令清單中的XXX軟體
+
+10. 使用pip安裝Python套件
+sudo pip install <套件名稱>
+
+11. 安裝Python常用套件
+sudo apt-get install zip unzip    (壓縮解壓縮)
+pip3 install ipython              (Python Shell)
+pip3 install requests             (網頁擷取)
+pip3 install beautifulsoup4       (網頁解析)
+pip3 install selenium             (自動化工具)
+pip3 install django               (網頁開發框架)
+sudo apt-get install sqlite3      (SQLite 資料庫)
+sudo apt-get install r-base       (R 語言)
+sudo apt-get install nginx        (Web 伺服器)
+sudo pip3 install uWSGI           (WSGI 伺服器)
+pip3 install numpy                (科學計算)
+pip3 install scipy                (科學計算)
+pip3 install matplotlib           (2D 繪圖)
+pip3 install pandas               (數據處理)
+pip3 install scikit-learn…
+
+
 # RPi4 安裝 opencv :  <br>
 <b>參考: Raspberry Pi安裝OpenCV_安裝篇 </b> <br>
 網址: https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv-%E5%AE%89%E8%A3%9D%E7%AF%87-1e6e35051680  <br>
