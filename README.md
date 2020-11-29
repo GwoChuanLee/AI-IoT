@@ -188,11 +188,9 @@ $ sudo systemctl restart dphys-swapfile <br>
 
 <b>D.測試 OpenCV。</b> <br>
    
-步驟 1:運行以下命令啟動Python終端。 <br>
-$ python3 <br>
-
-步驟2:使用以下命令導入 OpenCV 模塊。沒有任何反應代表導入成功。 <br>
-步驟3:導入了 OpenCV 模塊，應該能夠查詢版本，如下圖操作。 <br>
+步驟1:啟動Python終端。 <br>
+步驟2:導入 OpenCV 模塊。沒有任何反應代表導入成功。 <br>
+步驟3:應該能夠查詢版本，如下圖操作。 <br>
 <p align="center">
     <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
@@ -206,7 +204,6 @@ $ python3 <br>
 # RPi4 安裝 tensorflow 2.2 <br>
 
 安裝參考 1:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
-
 
 # Install TensorFlow 2.2.0 for Python 3
 # get a fresh start <br>
@@ -230,14 +227,14 @@ $ pip install gdown <br>
 $ sudo cp /home/pi/.local/bin/gdown /usr/local/bin/gdown <br>
 # download the wheel <br>
 $ gdown https://drive.google.com/uc?id=11mujzVaFqa7R1_lB7q0kVPW22Ol51MPg  <br>
+[gdown 如無法使用, 直接連網址下載檔案後傳入 RPi4]
 # install TensorFlow <br>
 $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
-
 
 <p align="center">
     <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/tensorflow2.2_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
-        <b>tensorflow 導入成功</b>
+        <b>tensorflow2.2 導入成功</b>
     </p>
 </p>
 
