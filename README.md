@@ -192,27 +192,21 @@ $ sudo systemctl restart dphys-swapfile <br>
 $ python3 <br>
 
 步驟2:使用以下命令導入 OpenCV 模塊。沒有任何反應代表導入成功。 <br>
->>> import cv2  <br>
-
-步驟3:入了 OpenCV 模塊，應該能夠查詢版本。 <br>
->>> cv2.__version__  <br>
-應該在命令行中看到如下所示的文本。 <br>
-‘4.5.0’ <br>
-
+步驟3:導入了 OpenCV 模塊，應該能夠查詢版本，如下圖操作。 <br>
 <p align="center">
     <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/opencv4_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
         <b>cv2 導入成功</b>
     </p>
 </p>
-
-[參考] <br>
-https://blog.huanxiang.codes/FmfvUszCB/  <br>
+[其他安裝參考文件] https://blog.huanxiang.codes/FmfvUszCB/  <br>
 
 <hr>
 
 # RPi4 安裝 tensorflow 2.2 <br>
-參考:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
+
+安裝參考 1:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
+
 
 # Install TensorFlow 2.2.0 for Python 3
 # get a fresh start <br>
