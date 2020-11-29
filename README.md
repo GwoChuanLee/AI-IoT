@@ -170,7 +170,7 @@ $ sudo make install <br>
 重新生成操作系統庫鏈接緩存。如果不運行以下命令，Raspberry Pi將無法找到我們的OpenCV安裝。 <br>
 $ sudo ldconfig <br>
 
-C.編譯後的清理。 <br>
+<b> C.編譯後的清理。 </b> <br>
 
 步驟 1:開啟交換文件。 <br>
 完成了 OpenCV 的編譯，不再需要這麼大的 swap 。通過運行以下指令開啟修改交換文件配置。<br>
@@ -292,7 +292,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </ol>
 
 
-
+<hr>
 
 
 # Jetson TX2 Install [2020.10.2]
