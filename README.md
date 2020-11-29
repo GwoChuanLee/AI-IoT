@@ -205,6 +205,10 @@ $ sudo systemctl restart dphys-swapfile <br>
 
 安裝參考 1:https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html <br>
 
+其他 2:https://medium.com/@boyie_chen/%E7%94%A8raspberry-pi%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-1-%E6%8A%8Atensorflow2-3%E5%8F%8Akeras%E5%AE%89%E8%A3%9D%E5%88%B0pi4%E4%B8%8A%E5%90%A7-952900ef1c58
+其他 3:https://github.com/PINTO0309/Tensorflow-bin/#usage
+
+
 # Install TensorFlow 2.2.0 for Python 3
 # get a fresh start <br>
 $ sudo apt-get update <br>
@@ -283,7 +287,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </ol>
 
 
-<hr>
+<hr><
 
 
 # Jetson TX2 Install [2020.10.2]
