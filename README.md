@@ -246,7 +246,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
 <hr>
 
-#<b> RPi4 安裝 keras </b> <br>
+# RPi4 安裝 keras  <br>
 pip3 install --user keras <br>
 
 導入keras後如下圖 <br>
@@ -254,7 +254,7 @@ pip3 install --user keras <br>
 <p align="center">
     <img src="https://github.com/GwoChuanLee/AI-IoT/blob/master/keras2.4_import.png" alt="Sample"  width="500" height="350">
     <p align="center">
-        <b>keras2.4 導入成功</b>
+        <b>keras2.4.3 導入成功</b>
     </p>
 </p>
 
