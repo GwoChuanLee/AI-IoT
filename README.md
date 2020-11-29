@@ -207,6 +207,7 @@ $ sudo systemctl restart dphys-swapfile <br>
 
 其他 2:https://medium.com/@boyie_chen/%E7%94%A8raspberry-pi%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-1-%E6%8A%8Atensorflow2-3%E5%8F%8Akeras%E5%AE%89%E8%A3%9D%E5%88%B0pi4%E4%B8%8A%E5%90%A7-952900ef1c58 <br>
 其他 3:https://github.com/PINTO0309/Tensorflow-bin/#usage <br>
+其他 4:http://helloshiau.blogspot.com/2019/09/tensorflow-keras-jupyter-raspberry-pi-3.html <br>
 
 Github 下載最新 whl 檔: https://github.com/lhelontra/tensorflow-on-arm/releases <br>
 
@@ -245,8 +246,9 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
 <hr>
 
-<b> RPi4 安裝 keras </b> <br>
-# pip3 install --user keras <br>
+#<b> RPi4 安裝 keras </b> <br>
+pip3 install --user keras <br>
+
 導入keras後如下圖 <br>
 
 <p align="center">
@@ -257,7 +259,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </p>
 
 
-<hr>
+<hr><hr>
 
 # (深耕計畫) 短期實務集訓課程 :  資工系, 教學發展中心
 # 講題: 使用邊緣運算器加速樹莓派運行人工智慧 [2020/11/18(三)]
@@ -298,7 +300,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 </ol>
 
 
-<hr><
+<hr><hr>
 
 
 # Jetson TX2 Install [2020.10.2]
