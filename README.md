@@ -274,11 +274,11 @@ $ pip3 install --user keras <br>
   $sudo pip3 install scipy <br>
   $sudo pip3 install keras <br>
   
-  [注意事項] 進入 python3 需先 import cv2, 否則會出錯
-  import cv2
-  import tensorflow as tf
-  import keras
-  import numpy
+  [注意事項] 進入 python3 需先 import cv2, 否則會出錯 <br>
+  import cv2  <br>
+  import tensorflow as tf <br>
+  import keras <br>
+  import numpy <br>
   
   
 
