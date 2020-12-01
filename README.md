@@ -261,7 +261,7 @@ $ pip3 install --user keras <br>
 
 <hr><hr>
 
-# Jetson Nano install [2020/12/1]
+# NVIDIA Jetson Nano 安裝 [2020/12/1]
 # 1. Install JetPack 4.4.1 <br>
 [Ref:https://developer.nvidia.com/embedded/Jetpack]
 
@@ -512,8 +512,6 @@ $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.co
 </ol>
 
 
-
-# NVIDIA Jetson Nano 安裝測試
 
 # AI-CAR 
 <ol>
