@@ -263,6 +263,7 @@ $ pip3 install --user keras <br>
 
 # Jetson Nano install [2020/12/1]
 # 1. Install JetPack 4.4.1 <br>
+[Ref:https://developer.nvidia.com/embedded/Jetpack]
 
 # 2. Install Tensorflow <br>
 [Ref:https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
