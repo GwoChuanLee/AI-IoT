@@ -261,6 +261,23 @@ $ pip3 install --user keras <br>
 
 <hr><hr>
 
+# Jetson Nano install [2020/12/1]
+1. Install JetPack 4.4.1
+
+2. Install Tensorflow 
+[Ref:https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html]
+
+3. Install Keras
+[Ref:https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2]
+[Ref:http://asahinow.blogspot.com/2019/08/nvidia-jetson-nano-tensorflow.html]
+
+$sudo pip3 install scipy
+$sudo pip3 install keras
+
+
+
+<hr><hr>
+
 # (深耕計畫) 短期實務集訓課程 :  資工系, 教學發展中心
 # 講題: 使用邊緣運算器加速樹莓派運行人工智慧 [2020/11/18(三)]
 
