@@ -263,10 +263,14 @@ $ pip3 install --user keras <br>
 
 # NVIDIA Jetson Nano 安裝 [2020/12/1]
 # 1. Install JetPack 4.4.1 <br>
-[Ref: https://developer.nvidia.com/embedded/Jetpack]
+[Ref: https://developer.nvidia.com/embedded/Jetpack] 
+
+  JetPack 4.4.1 安裝完, 啟動 jetson nano ubuntu , 已可使用內建 opencv <br>
 
 # 2. Install Tensorflow <br>
 [Ref: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
+
+  tensorflow 2.3.1 安裝測試, 需先 import cv2, 再 import tensorflow as tf , 否則導入 opencv會出錯, 原因未明<br>
 
 # 3. Install Keras <br>
 [Ref: https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2] <br>
@@ -275,11 +279,14 @@ $ pip3 install --user keras <br>
   $sudo pip3 install scipy <br>
   $sudo pip3 install keras <br>
   
-  [注意事項] 需先 import cv2, 否則會有錯務訊息 <br>
+  [注意事項] 需先 import cv2, 否則會有錯物訊息 <br>
   import cv2  <br>
   import tensorflow as tf <br>
   import keras <br>
   import numpy <br>
+
+# 其他套件安裝: scikit-learn, tkinter, mathploblib <br>
+ 
 
 <hr><hr>
 
