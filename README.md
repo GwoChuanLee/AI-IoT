@@ -287,6 +287,7 @@ $ pip3 install --user keras <br>
 
 # 其他套件安裝: scikit-learn, tkinter, mathploblib <br>
  
+# Jetson Nano Yolo 安裝 <
 
 <hr><hr>
 
