@@ -290,7 +290,7 @@ $ pip3 install --user keras <br>
 sudo apt-get install nano <br>
 sudo apt-get install python3-tk <br>
 pip3 install git+https://github.com/scikit-learn/...............  <br>
-pip3 install matplotlib <br?
+pip3 install matplotlib <br>
 
 # Jetson Nano Yolo 安裝 <br>
 
