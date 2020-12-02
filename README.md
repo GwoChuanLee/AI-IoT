@@ -285,7 +285,7 @@ $ pip3 install --user keras <br>
   import keras <br>
   import numpy <br>
 
-# 其他套件安裝: scikit-learn, tkinter, mathploblib <br>
+# 其他套件安裝: nano,  tkinter, scikit-learn, mathplotlib <br>
 
 sudo apt-get install nano <br>
 sudo apt-get install python3-tk <br>
