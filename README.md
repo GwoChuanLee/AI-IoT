@@ -292,6 +292,8 @@ sudo apt-get install python3-tk <br>
 pip3 install git+https://github.com/scikit-learn/...............  <br>
 pip3 install matplotlib <br>
 
+# swap 設定 <br>
+
 # Jetson Nano Yolo 安裝 <br>
 
 <hr><hr>
