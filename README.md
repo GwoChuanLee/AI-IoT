@@ -287,15 +287,12 @@ $ pip3 install --user keras <br>
 
 # 其他套件安裝: scikit-learn, tkinter, mathploblib <br>
 
-sudo apt-get install nano
-sudo apt-get install python3-tk
-pip3 install git+https://github.com/scikit-learn/...............
-pip3 install matplotlib
+sudo apt-get install nano <br>
+sudo apt-get install python3-tk <br>
+pip3 install git+https://github.com/scikit-learn/...............  <br>
+pip3 install matplotlib <br?
 
-
-
- 
-# Jetson Nano Yolo 安裝 <
+# Jetson Nano Yolo 安裝 <br>
 
 <hr><hr>
 
