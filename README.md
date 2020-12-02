@@ -263,26 +263,23 @@ $ pip3 install --user keras <br>
 
 # NVIDIA Jetson Nano 安裝 [2020/12/1]
 # 1. Install JetPack 4.4.1 <br>
-[Ref:https://developer.nvidia.com/embedded/Jetpack]
+[Ref: https://developer.nvidia.com/embedded/Jetpack]
 
 # 2. Install Tensorflow <br>
-[Ref:https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
+[Ref: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
 
 # 3. Install Keras <br>
-[Ref:https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2] <br>
-[Ref:http://asahinow.blogspot.com/2019/08/nvidia-jetson-nano-tensorflow.html] <br>
+[Ref: https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2] <br>
+[Ref: http://asahinow.blogspot.com/2019/08/nvidia-jetson-nano-tensorflow.html] <br>
 
   $sudo pip3 install scipy <br>
   $sudo pip3 install keras <br>
   
-  [注意事項] 進入 python3 需先 import cv2, 否則會出錯 <br>
+  [注意事項] 需先 import cv2, 否則會有錯務訊息 <br>
   import cv2  <br>
   import tensorflow as tf <br>
   import keras <br>
   import numpy <br>
-  
-  
-
 
 <hr><hr>
 
