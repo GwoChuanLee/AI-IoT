@@ -289,10 +289,28 @@ $ pip3 install --user keras <br>
 
 sudo apt-get install nano <br>
 sudo apt-get install python3-tk <br>
-pip3 install git+https://github.com/scikit-learn/...............  <br>
+pip3 install git+https://github.com/scikit-learn/scikit-learn.git <br>
 pip3 install matplotlib <br>
 
 # swap 設定 <br>
+## Allocate 8G swap space <br>
+sudo fallocate -l 8G /swapfile
+sudo chmod 600 /swapfile
+ls -lh /swapfile
+
+## create and Enable SWAP <br>
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon -show
+
+## show available memory after enabling SWAP
+free -h
+
+## add SWAP to fstab config
+sudo cp /etc/fstab /etc/fstab.bak
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+
 
 # Jetson Nano Yolo 安裝 <br>
 
