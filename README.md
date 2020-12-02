@@ -270,7 +270,7 @@ $ pip3 install --user keras <br>
 # 2. Install Tensorflow <br>
 [Ref: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
 
-  tensorflow 2.3.1 安裝測試, 需先 import cv2, 再 import tensorflow as tf , 否則導入 opencv會出錯, 原因未明<br>
+ tensorflow 2.3.1 安裝測試, 需先 import cv2, 再 import tensorflow as tf , 否則導入 opencv會出錯, 原因未明<br>
 
 # 3. Install Keras <br>
 [Ref: https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2] <br>
@@ -294,22 +294,21 @@ pip3 install matplotlib <br>
 
 # swap 設定 <br>
 ## Allocate 8G swap space <br>
-sudo fallocate -l 8G /swapfile
-sudo chmod 600 /swapfile
-ls -lh /swapfile
+sudo fallocate -l 8G /swapfile <br>
+sudo chmod 600 /swapfile <br>
+ls -lh /swapfile <br>
 
 ## create and Enable SWAP <br>
-sudo mkswap /swapfile
-sudo swapon /swapfile
-sudo swapon -show
+sudo mkswap /swapfile <br>
+sudo swapon /swapfile <br>
+sudo swapon -show <br>
 
-## show available memory after enabling SWAP
-free -h
+## show available memory after enabling SWAP <br>
+free -h <br>
 
-## add SWAP to fstab config
-sudo cp /etc/fstab /etc/fstab.bak
-echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-
+## add SWAP to fstab config <br>
+sudo cp /etc/fstab /etc/fstab.bak <br>
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab <br>
 
 
 # Jetson Nano Yolo 安裝 <br>
