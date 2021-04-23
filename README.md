@@ -359,23 +359,28 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab <br>
 
 # Jetson TX2 Install [2020.10.2]
 
-# TX2 刷機 JetPack 4.3 [OK]
+# TX2 刷機 JetPack 4.5.1 
 
-[Ref1] (鴻鵠國際) TX2安裝教學(中文)  [觀念]  http://www.honghutech.com/nvidia-jeston-tx2/flashtx2 
-[Ref2] Jetson TX2 使用 SDK Manager 刷机（JetPack4.2版本) https://blog.csdn.net/u012254599/article/details/100009909
+Host : 
+安裝 ubuntu 18.04, 
+到 nvidia 官網下載最新版 SDK Manager (內含 JetPack 4.5.1) 
+執行 SDK Manager 下載OS image 
 
-Host : ubuntu 18.04, 到 nvidia 網站 下載 SDK Manager 
 Target: Jetson TX2
-選 JetPack 4.3
+選最新版 JetPack 4.5.1
 
 Download 完：
 
 Recovery  TX2
 
 TX2先关机，然后拔掉TX2的电源，TX2再开机，
-开机后按下REC按键保持一直按下的状态，然后按一下RST按键，等2秒后松开REC按键，完成后点击flash。
+开机后按下REC按键保持一直按下的状态，然后按一下RST按键，等2秒后松开REC按键，完成后点击 Host 的 flash。
 
 進行　Flash OS
+
+# Jetson TX2 安裝 tensorflow 2.4
+依照 Nvidia 官網安裝 tensorflow 即可
+
 
 # Python3.6 下 TX2 安裝 opencv3.4 [OK]
 Ref.  K—程式人： TX2 安裝 opencv  https://jennaweng0621.pixnet.net/blog/post/403827017-%5Btx2%5D-tx2%E5%AE%89%E8%A3%9Dopencv
@@ -452,19 +457,6 @@ sudo make install <br>
 
 python3 <br>
 import cv2<br>
-
-# Tensorflow on TX2 [測]
-Ref1:  K_程式人 https://jennaweng0621.pixnet.net/blog/post/403826915-%5Btx2%5D-%E5%AE%89%E8%A3%9Dtensorflow-gpu [有問題]
-Ref2:  官網    https://forums.developer.nvidia.com/t/tensorflow-for-jetson-tx2/64596
-
-sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev   <br>
-sudo apt-get install python3-pip  <br>
-sudo pip3 install -U pip  <br>
-sudo pip3 install -U numpy grpcio absl-py py-cpuinfo psutil portpicker six mock requests gast h5py astor termcolor protobuf keras-applications keras-preprocessing wrapt google-pasta <br>
-# TF-2.x
-$ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==2.1.0+nv20.3  <br>
-# TF-1.15
-$ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==1.15.2+nv20.3  <br>
 
 
 
