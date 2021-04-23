@@ -270,7 +270,7 @@ $ pip3 install --user keras <br>
 # 2. Install Tensorflow <br>
 [Ref: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html] <br>
 
- tensorflow 2.3.1 安裝測試, 需先 import cv2, 再 import tensorflow as tf , 否則導入 opencv會出錯, 原因未明<br>
+ tensorflow 2.3.1 安裝測試, 需先 import cv2, 再 import tensorflow as tf , 否則導入 opencv會出錯 <br>
 
 # 3. Install Keras <br>
 [Ref: https://forums.developer.nvidia.com/t/can-i-install-keras-on-jetson-nano/75341/2] <br>
