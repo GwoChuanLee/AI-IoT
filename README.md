@@ -247,7 +247,7 @@ $ sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl <br>
 
 # RPi4 安裝 keras <br>
 最後安裝 keras 套件: <br>
-$ pip3 install --user keras <br>
+$ pip3 install keras==2.4.3 <br>
 
 安裝後導入keras 後如下圖 <br>
 
@@ -257,6 +257,17 @@ $ pip3 install --user keras <br>
         <b>keras2.4 導入成功</b>
     </p>
 </p>
+
+# RPi4 安裝 python3-opencv <br>
+一句話安裝命令：
+$ sudo apt-get install -y libopencv-dev python3-opencv
+
+親測沒問題
+pi@raspberrypi:~$ python3
+>>> import cv2
+>>> cv2.__version__
+'3.2.0'
+
 
 
 <hr><hr>
