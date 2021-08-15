@@ -260,13 +260,13 @@ $ pip3 install keras==2.4.3 <br>
 
 # RPi4 安裝 python3-opencv <br>
 一句話安裝命令：
-$ sudo apt-get install -y libopencv-dev python3-opencv
+$ sudo apt-get install -y libopencv-dev python3-opencv <br>
 
-親測沒問題
-pi@raspberrypi:~$ python3
->>> import cv2
->>> cv2.__version__
-'3.2.0'
+親測沒問題 <br>
+pi@raspberrypi:~$ python3 <br>
+>>> import cv2  <br>
+>>> cv2.__version__  <br>
+'3.2.0'  <br>
 
 
 
